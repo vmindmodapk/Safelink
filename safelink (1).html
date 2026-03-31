@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>45 Tips dan Trik Bermain Game Mobile Strategi: Taklukkan Musuh dengan Strategi Cerdas 2023</title>
+    
+    <!-- Adsterra Popunder -->
+    <script type="text/javascript">
+        var adsterra_pu = { zone_id: 'XXXXXX', mode: 'all' };
+    </script>
+    <script type="text/javascript" src="https://syndication.adsterra.com/syndication/pu.js"></script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .site-header { background: #2c3e50; padding: 10px 20px; text-align: center; border-bottom: 3px solid #e74c3c; }
+        .site-header h1 { color: #fff; font-size: 1em; font-weight: 600; margin: 0; }
+        .article-header { background: #3498db; color: white; padding: 30px 20px; text-align: center; }
+        .article-header h1 { font-size: 1.6em; margin-bottom: 10px; line-height: 1.3; font-weight: 700; }
+        .article-meta { font-size: 0.85em; opacity: 0.9; }
+        
+        .ad-box { background: #f9f9f9; border: 1px solid #ddd; margin: 15px; padding: 0; text-align: center; min-height: 90px; overflow: hidden; }
+        .ad-label { font-size: 0.65em; color: #999; text-transform: uppercase; letter-spacing: 1px; padding: 5px; background: #eee; }
+        
+        .ad-row { display: flex; gap: 15px; margin: 15px; }
+        .ad-half { flex: 1; background: #f9f9f9; border: 1px solid #ddd; overflow: hidden; }
+        
+        .step-wrapper { margin: 15px; border: 2px solid #e74c3c; background: #fff; display: none; }
+        .step-wrapper.active { display: block; animation: fadeIn 0.4s ease; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        
+        .step-header { background: #e74c3c; color: white; padding: 12px 15px; font-weight: bold; font-size: 1em; display: flex; align-items: center; gap: 10px; }
+        .step-number-badge { background: white; color: #e74c3c; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.9em; }
+        .step-body { padding: 25px; text-align: center; }
+        .step-title { font-size: 1.2em; color: #2c3e50; margin-bottom: 15px; font-weight: 600; }
+        .step-info { color: #7f8c8d; font-size: 0.95em; margin-bottom: 20px; line-height: 1.5; }
+        
+        .timer-display { font-size: 3em; font-weight: bold; color: #e74c3c; margin: 20px 0; font-family: 'Courier New', monospace; }
+        
+        .btn-action { background: #e74c3c; color: white; border: none; padding: 14px 45px; font-size: 1em; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.3s; display: inline-block; margin: 10px 0; border-radius: 3px; }
+        .btn-action:hover:not(:disabled) { background: #c0392b; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3); }
+        .btn-action:disabled { background: #95a5a6; cursor: not-allowed; opacity: 0.8; }
+        .btn-waiting { background: #f39c12 !important; }
+        .btn-success { background: #27ae60 !important; animation: pulseBtn 2s infinite; }
+        @keyframes pulseBtn { 0%, 100% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0.4); } 50% { box-shadow: 0 0 0 10px rgba(39, 174, 96, 0); } }
+        
+        .captcha-area { background: #ecf0f1; padding: 20px; margin: 15px 0; border-radius: 5px; border: 1px solid #bdc3c7; }
+        .checkbox-style { display: flex; align-items: center; justify-content: center; gap: 12px; cursor: pointer; font-size: 1.05em; color: #2c3e50; }
+        .checkbox-style input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; }
+        
+        .final-step { border-color: #27ae60 !important; }
+        .final-step .step-header { background: #27ae60 !important; }
+        .final-step .step-number-badge { color: #27ae60 !important; }
+        
+        .url-locked-box { background: #fff3cd; border: 2px solid #ffc107; padding: 25px; margin: 20px 0; text-align: center; border-radius: 5px; }
+        .url-locked-icon { font-size: 3em; margin-bottom: 15px; }
+        .url-locked-text { color: #856404; font-weight: bold; font-size: 1.1em; margin-bottom: 10px; }
+        .url-locked-sub { color: #856404; font-size: 0.9em; }
+        
+        .url-reveal-box { background: #d5f4e6; border: 2px solid #27ae60; padding: 20px; margin: 20px 0; text-align: left; border-radius: 5px; display: none; }
+        .url-reveal-box.show { display: block; animation: slideDown 0.5s ease; }
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .url-label { font-size: 0.85em; color: #27ae60; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; }
+        .url-display { background: white; padding: 12px; border: 1px solid #27ae60; border-radius: 3px; word-break: break-all; font-family: monospace; font-size: 0.85em; color: #2c3e50; margin-bottom: 15px; }
+        
+        .btn-go-link { background: #27ae60; color: white; border: none; padding: 15px 40px; font-size: 1.1em; font-weight: 600; cursor: pointer; width: 100%; border-radius: 3px; transition: background 0.3s; text-transform: uppercase; }
+        .btn-go-link:hover { background: #229954; }
+        
+        .article-content { padding: 20px; }
+        .intro-text { background: #ecf0f1; padding: 20px; border-left: 4px solid #3498db; margin-bottom: 25px; font-size: 1.05em; line-height: 1.7; }
+        
+        h2 { color: #2c3e50; font-size: 1.4em; margin: 30px 0 15px; padding-bottom: 8px; border-bottom: 2px solid #e74c3c; font-weight: 700; }
+        h3 { color: #34495e; font-size: 1.15em; margin: 20px 0 10px; font-weight: 600; }
+        p { margin-bottom: 15px; line-height: 1.8; text-align: justify; }
+        ul { margin: 15px 0; padding-left: 25px; }
+        li { margin-bottom: 10px; line-height: 1.6; }
+        strong { color: #2c3e50; font-weight: 600; }
+        
+        .sticky-footer { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid #ddd; padding: 0; text-align: center; z-index: 1000; font-size: 0.75em; }
+        .sticky-close { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: #e74c3c; color: white; border: none; width: 22px; height: 22px; border-radius: 3px; cursor: pointer; font-size: 12px; z-index: 1001; }
+        
+        body { padding-bottom: 60px; }
+        
+        @media (max-width: 600px) {
+            .article-header h1 { font-size: 1.3em; }
+            .step-title { font-size: 1.1em; }
+            .timer-display { font-size: 2.5em; }
+            .btn-action { padding: 12px 30px; font-size: 0.95em; }
+            .ad-row { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Site Header -->
+        <div class="site-header">
+            <h1>🔐 SafeLink - Link Protection System</h1>
+        </div>
+
+        <!-- Article Header -->
+        <div class="article-header">
+            <h1>45 Tips dan Trik Bermain Game Mobile Strategi: Taklukkan Musuh dengan Strategi Cerdas 2023</h1>
+            <div class="article-meta">
+                📅 2023 | 🎮 Game Strategy | 🔒 Protected Link
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Header -->
+        <div class="ad-box">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728/invoke.js"></script>
+        </div>
+
+        <!-- STEP 1: Langsung -->
+        <div class="step-wrapper active" id="step1">
+            <div class="step-header">
+                <div class="step-number-badge">1</div>
+                <span>Verifikasi Keamanan - Langkah 1 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">🔐 Verifikasi Link</div>
+                <div class="step-info">
+                    Anda akan mengakses konten dari external source.<br>
+                    Klik tombol di bawah untuk memulai verifikasi keamanan.
+                </div>
+                <button class="btn-action" onclick="nextStep(2)">LANJUTKAN</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Step 2 -->
+        <div class="ad-box" id="adStep2" style="display: none;">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728_B', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_B/invoke.js"></script>
+        </div>
+
+        <!-- STEP 2: Timer 5 Detik -->
+        <div class="step-wrapper" id="step2">
+            <div class="step-header">
+                <div class="step-number-badge">2</div>
+                <span>Timer Verifikasi - Langkah 2 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">⏳ Tunggu 5 Detik</div>
+                <div class="timer-display" id="timer2">5</div>
+                <div class="step-info">Mohon tunggu timer selesai untuk melanjutkan</div>
+                <button class="btn-action btn-waiting" id="btn2" disabled onclick="nextStep(3)">TUNGGU...</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 300x250 Dual - Step 3 -->
+        <div class="ad-row" id="adStep3" style="display: none;">
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_A', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_A/invoke.js"></script>
+            </div>
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_B', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_B/invoke.js"></script>
+            </div>
+        </div>
+
+        <!-- STEP 3: Captcha -->
+        <div class="step-wrapper" id="step3">
+            <div class="step-header">
+                <div class="step-number-badge">3</div>
+                <span>Verifikasi Manual - Langkah 3 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">✅ Konfirmasi Keamanan</div>
+                <div class="captcha-area">
+                    <label class="checkbox-style">
+                        <input type="checkbox" id="check3" onchange="enableStep3()">
+                        <span>Saya bukan robot dan setuju melanjutkan</span>
+                    </label>
+                </div>
+                <button class="btn-action" id="btn3" disabled onclick="nextStep(4)">VERIFIKASI</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Step 4 -->
+        <div class="ad-box" id="adStep4" style="display: none;">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728_C', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_C/invoke.js"></script>
+        </div>
+
+        <!-- STEP 4: Langsung -->
+        <div class="step-wrapper" id="step4">
+            <div class="step-header">
+                <div class="step-number-badge">4</div>
+                <span>Proses Keamanan - Langkah 4 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">🔍 Verifikasi Link</div>
+                <div class="step-info">Link sedang diverifikasi. Klik lanjutkan untuk proses berikutnya.</div>
+                <button class="btn-action" onclick="nextStep(5)">LANJUTKAN</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 300x250 Dual - Step 5 -->
+        <div class="ad-row" id="adStep5" style="display: none;">
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_C', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_C/invoke.js"></script>
+            </div>
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_D', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_D/invoke.js"></script>
+            </div>
+        </div>
+
+        <!-- STEP 5: Konfirmasi -->
+        <div class="step-wrapper" id="step5">
+            <div class="step-header">
+                <div class="step-number-badge">5</div>
+                <span>Konfirmasi Lanjut - Langkah 5 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">👉 Siap Melanjutkan?</div>
+                <div class="step-info">
+                    Anda akan diarahkan ke website pihak ketiga.<br>
+                    Pastikan Anda memahami risiko keamanan.
+                </div>
+                <button class="btn-action" onclick="nextStep(6)">YA, LANJUTKAN</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Step 6 -->
+        <div class="ad-box" id="adStep6" style="display: none;">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728_D', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_D/invoke.js"></script>
+        </div>
+
+        <!-- STEP 6: Timer 10 Detik -->
+        <div class="step-wrapper" id="step6">
+            <div class="step-header">
+                <div class="step-number-badge">6</div>
+                <span>Timer Final - Langkah 6 dari 7</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">⏱️ Timer Final</div>
+                <div class="timer-display" id="timer6">10</div>
+                <div class="step-info">Link akan tersedia setelah timer selesai. Lihat iklan di bawah.</div>
+                <button class="btn-action btn-waiting" id="btn6" disabled onclick="nextStep(7)">TUNGGU 10 DETIK...</button>
+            </div>
+        </div>
+
+        <!-- Adsterra 300x250 Dual - Step 7 -->
+        <div class="ad-row" id="adStep7" style="display: none;">
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_E', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_E/invoke.js"></script>
+            </div>
+            <div class="ad-half">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_300_F', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_F/invoke.js"></script>
+            </div>
+        </div>
+
+        <!-- STEP 7: FINAL -->
+        <div class="step-wrapper final-step" id="step7">
+            <div class="step-header">
+                <div class="step-number-badge">7</div>
+                <span>Link Tersedia - Langkah 7 dari 7 ✓</span>
+            </div>
+            <div class="step-body">
+                <div class="step-title">🎉 Verifikasi Selesai!</div>
+                
+                <div class="url-locked-box" id="urlLocked">
+                    <div class="url-locked-icon">🔒</div>
+                    <div class="url-locked-text">URL TERKUNCI</div>
+                    <div class="url-locked-sub">Klik tombol di bawah untuk membuka link tujuan</div>
+                </div>
+
+                <div class="url-reveal-box" id="urlBox">
+                    <div class="url-label">🔗 URL Tujuan:</div>
+                    <div class="url-display" id="targetUrl">
+                        https://app.khaddavi.net/45-tips-dan-trik-bermain-game-mobile-strategi-taklukkan-musuh-dengan-strategi-cerdas-2023/
+                    </div>
+                    <button class="btn-go-link" onclick="openTarget()">
+                        🚀 KLIK DI SINI UNTUK MASUK KE LINK
+                    </button>
+                </div>
+
+                <button class="btn-action btn-success" id="btnReveal" onclick="revealUrl()">
+                    BUKA LINK 🔓
+                </button>
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Pre Content -->
+        <div class="ad-box" id="adPreContent" style="display: none;">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728_E', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_E/invoke.js"></script>
+        </div>
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <div class="intro-text">
+                Pecinta game mobile strategi, bersiaplah! Artikel ini akan membantumu mendominasi medan pertempuran dengan <strong>45 tips dan trik bermain game mobile strategi</strong> yang ampuh. Tahun 2023 menghadirkan tantangan baru, dan dengan panduan ini, kamu akan siap menaklukkan musuh dengan strategi cerdas.
+            </div>
+
+            <!-- Adsterra 728x90 - Content 1 -->
+            <div class="ad-box">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_728_F', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_F/invoke.js"></script>
+            </div>
+
+            <h2>Memahami Mekanisme Game</h2>
+            <p>Sebelum terjun ke tips dan trik spesifik, penting untuk memahami dasar-dasar game mobile strategi yang kamu mainkan. Setiap game memiliki mekanisme unik, mulai dari pengumpulan sumber daya, pengembangan basis, hingga tipe pasukan dan teknologi.</p>
+            
+            <!-- Adsterra 300x250 Dual - Content -->
+            <div class="ad-row">
+                <div class="ad-half">
+                    <div class="ad-label">Advertisement</div>
+                    <script type="text/javascript">
+                        atOptions = { 'key' : 'YOUR_KEY_300_G', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_G/invoke.js"></script>
+                </div>
+                <div class="ad-half">
+                    <div class="ad-label">Advertisement</div>
+                    <script type="text/javascript">
+                        atOptions = { 'key' : 'YOUR_KEY_300_H', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_H/invoke.js"></script>
+                </div>
+            </div>
+
+            <h2>Manajemen Sumber Daya</h2>
+            <ul>
+                <li><strong>Prioritaskan pembangunan:</strong> Fokus pada bangunan sumber daya penting terlebih dahulu</li>
+                <li><strong>Optimalkan produksi:</strong> Tingkatkan efisiensi produksi sumber daya</li>
+                <li><strong>Manfaatkan bonus harian:</strong> Jangan lewatkan kesempatan bonus setiap hari</li>
+                <li><strong>Bijak menggunakan gems:</strong> Pertimbangkan dengan matang penggunaan permata</li>
+            </ul>
+
+            <!-- Adsterra 728x90 - Content 2 -->
+            <div class="ad-box">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_728_G', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_G/invoke.js"></script>
+            </div>
+
+            <h2>Membangun Basis yang Kuat</h2>
+            <p>Basis yang kuat adalah kunci pertahanan yang efektif. Strategi penempatan bangunan harus dipertimbangkan dengan matang untuk keamanan maksimal.</p>
+
+            <h2>Pengembangan Pasukan</h2>
+            <ul>
+                <li><strong>Pilih jenis pasukan tepat:</strong> Sesuaikan dengan strategi dan musuh</li>
+                <li><strong>Upgrade berkala:</strong> Jangan biarkan pasukan tertinggal levelnya</li>
+                <li><strong>Pelatihan efisien:</strong> Fokus pada jenis pasukan yang paling dibutuhkan</li>
+                <li><strong>Riset teknologi:</strong> Buka unit dan kemampuan baru</li>
+            </ul>
+
+            <!-- Adsterra 728x90 - Content 3 -->
+            <div class="ad-box">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_728_H', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_H/invoke.js"></script>
+            </div>
+
+            <h2>Strategi Serangan</h2>
+            <p>Serangan yang terencana akan memaksimalkan peluang kemenangan. Scout musuh terlebih dahulu dan manfaatkan kelemahan pertahanan mereka.</p>
+
+            <!-- Adsterra 300x250 Dual - Content 2 -->
+            <div class="ad-row">
+                <div class="ad-half">
+                    <div class="ad-label">Advertisement</div>
+                    <script type="text/javascript">
+                        atOptions = { 'key' : 'YOUR_KEY_300_I', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_I/invoke.js"></script>
+                </div>
+                <div class="ad-half">
+                    <div class="ad-label">Advertisement</div>
+                    <script type="text/javascript">
+                        atOptions = { 'key' : 'YOUR_KEY_300_J', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_300_J/invoke.js"></script>
+                </div>
+            </div>
+
+            <h2>Diplomasi dan Aliansi</h2>
+            <p>Bergabung dengan aliansi yang aktif dan berpartisipasi dalam kegiatan aliansi untuk mendapatkan dukungan dan bantuan.</p>
+
+            <h2>Strategi Pertahanan</h2>
+            <ul>
+                <li><strong>Buat perangkap:</strong> Gunakan perangkap untuk memperlambat musuh</li>
+                <li><strong>Pertahanan berlapis:</strong> Buat beberapa lapisan pertahanan</li>
+                <li><strong>Manfaatkan hero:</strong> Tempatkan hero untuk memimpin pertahanan</li>
+            </ul>
+
+            <!-- Adsterra 728x90 - Content 4 -->
+            <div class="ad-box">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_728_I', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_I/invoke.js"></script>
+            </div>
+
+            <h2>Tips dan Trik Tambahan</h2>
+            <p>Manfaatkan event in-game, ikuti komunitas game, bersabar dan konsisten, pelajari dari kesalahan, dan update game secara teratur.</p>
+
+            <h2>Kesimpulan</h2>
+            <p>Dengan menerapkan <strong>45 tips dan trik bermain game mobile strategi</strong> ini, kamu akan siap menaklukkan musuh dan menjadi penguasa di medan pertempuran. Ingat, kunci utama adalah strategi cerdas dan konsistensi dalam bermain. Selamat bermain dan semoga sukses!</p>
+
+            <!-- Adsterra 728x90 - Content 5 -->
+            <div class="ad-box">
+                <div class="ad-label">Advertisement</div>
+                <script type="text/javascript">
+                    atOptions = { 'key' : 'YOUR_KEY_728_J', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_J/invoke.js"></script>
+            </div>
+        </div>
+
+        <!-- Adsterra 728x90 - Footer -->
+        <div class="ad-box">
+            <div class="ad-label">Advertisement</div>
+            <script type="text/javascript">
+                atOptions = { 'key' : 'YOUR_KEY_728_K', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/YOUR_KEY_728_K/invoke.js"></script>
+        </div>
+
+        <footer style="background: #2c3e50; color: #bdc3c7; text-align: center; padding: 20px; font-size: 0.85em;">
+            <p>&copy; 2023 SafeLink Protector. All Rights Reserved.</p>
+            <p style="margin-top: 5px; font-size: 0.8em;">Secure Link Verification System v2.0</p>
+        </footer>
+    </div>
+
+    <!-- Adsterra Social Bar (Sticky) -->
+    <div class="sticky-footer">
+        <button class="sticky-close" onclick="this.parentElement.style.display='none'">×</button>
+        <script type='text/javascript' src='//plYOUR_SOCIALBAR_ID.profitablegatecpm.com/XX/XX/XX/XX.js'></script>
+    </div>
+
+    <script>
+        let TARGET_URL = 'https://app.khaddavi.net/45-tips-dan-trik-bermain-game-mobile-strategi-taklukkan-musuh-dengan-strategi-cerdas-2023/';
+        let currentStep = 1;
+        let urlRevealed = false;
+
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const encoded = params.get('url');
+            if (encoded) {
+                try {
+                    TARGET_URL = atob(encoded);
+                } catch(e) {}
+            }
+        };
+
+        function nextStep(step) {
+            document.getElementById('step' + currentStep).classList.remove('active');
+            document.getElementById('step' + step).classList.add('active');
+            
+            showAdsForStep(step);
+            currentStep = step;
+            
+            if (step === 2) startTimer(5, 'timer2', 'btn2', 'LANJUTKAN ➔');
+            else if (step === 6) startTimer(10, 'timer6', 'btn6', 'BUKA LINK ➔');
+            
+            document.getElementById('step' + step).scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function showAdsForStep(step) {
+            if (step >= 2) document.getElementById('adStep2').style.display = 'block';
+            if (step >= 3) document.getElementById('adStep3').style.display = 'flex';
+            if (step >= 4) document.getElementById('adStep4').style.display = 'block';
+            if (step >= 5) document.getElementById('adStep5').style.display = 'flex';
+            if (step >= 6) document.getElementById('adStep6').style.display = 'block';
+            if (step >= 7) {
+                document.getElementById('adStep7').style.display = 'flex';
+                document.getElementById('adPreContent').style.display = 'block';
+            }
+        }
+
+        function startTimer(seconds, displayId, btnId, btnText) {
+            let timeLeft = seconds;
+            const display = document.getElementById(displayId);
+            const btn = document.getElementById(btnId);
+            
+            const interval = setInterval(() => {
+                display.textContent = timeLeft;
+                timeLeft--;
+                
+                if (timeLeft < 0) {
+                    clearInterval(interval);
+                    btn.disabled = false;
+                    btn.textContent = btnText;
+                    btn.classList.remove('btn-waiting');
+                }
+            }, 1000);
+        }
+
+        function enableStep3() {
+            document.getElementById('btn3').disabled = !document.getElementById('check3').checked;
+        }
+
+        function revealUrl() {
+            if (urlRevealed) return;
+            urlRevealed = true;
+            
+            document.getElementById('urlLocked').style.display = 'none';
+            document.getElementById('urlBox').classList.add('show');
+            document.getElementById('targetUrl').textContent = TARGET_URL;
+            document.getElementById('btnReveal').style.display = 'none';
+        }
+
+        function openTarget() {
+            window.open(TARGET_URL, '_blank');
+            event.target.innerHTML = '✅ LINK DIBUKA!';
+            event.target.style.background = '#229954';
+            
+            setTimeout(() => {
+                alert('Link telah dibuka di tab baru!');
+            }, 300);
+        }
+
+        function generateSafeLink(originalUrl) {
+            return window.location.origin + window.location.pathname + '?url=' + btoa(originalUrl);
+        }
+    </script>
+
+</body>
+</html>
